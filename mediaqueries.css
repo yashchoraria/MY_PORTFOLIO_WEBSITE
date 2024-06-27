@@ -1,0 +1,15 @@
+@media screen and (max-width: 1200px) {
+    .desktop_navbar{
+        display: none;
+    }
+    .mobile_navbar{
+        display: flex;
+    }
+    .nav_links{
+        display: none;
+    }
+    .mobile_navbar.active .nav_links{
+        display: flex;
+        flex-direction: column;
+    }
+}
