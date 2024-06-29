@@ -27,7 +27,16 @@
     .about{
         flex-direction: column;
     }
-    .about_container{
+    .article-container{
+        flex-direction: column;
+    }
+    .projects_container{
+        gap: 2rem;
+    }
+    .foot_nav{
+        flex-direction: column;
+    }
+    .contact_info_container{
         flex-direction: column;
     }
   }
@@ -46,3 +55,11 @@
         flex-direction: column;
     }
   }
+
+    @media screen and (max-width: 1000px) {
+        .about_container{
+            flex-direction: column;
+        }
+    }
+
+  
