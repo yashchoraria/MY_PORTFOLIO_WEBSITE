@@ -39,6 +39,9 @@
     .contact_info_container{
         flex-direction: column;
     }
+    .last_links{
+        flex-direction: column;
+    }
   }
 
   @media screen and (max-width: 850px) {
