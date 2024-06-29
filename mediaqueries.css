@@ -24,6 +24,12 @@
     .about_text{
         margin: 2rem;
     }
+    .about{
+        flex-direction: column;
+    }
+    .about_container{
+        flex-direction: column;
+    }
   }
 
   @media screen and (max-width: 850px) {
@@ -35,5 +41,8 @@
     .about{
         flex-direction: column;
       padding: 5% 5%;
+    }
+    .about_container{
+        flex-direction: column;
     }
   }
