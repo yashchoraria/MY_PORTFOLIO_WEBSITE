@@ -18,4 +18,22 @@
     .section_title{
         font-size: 2rem;
     }
+    .section_pic_container {
+      flex-direction: column;
+    }
+    .about_text{
+        margin: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 850px) {
+    .about_img{
+        width: 50vw; /* Adjusts width based on viewport width */
+        max-width: 300px; /* Optional: Ensures the image doesn't get too large on small screens */
+        height: auto;
+    }
+    .about{
+        flex-direction: column;
+      padding: 5% 5%;
+    }
   }
