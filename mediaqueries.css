@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
     .desktop_navbar {
         display: none;
     }
@@ -6,3 +6,16 @@
         display: flex;
     }
 }
+@media (max-width: 768px) {
+    .profile_img{
+      width: 50vw; /* Adjusts width based on viewport width */
+      max-width: 300px; /* Optional: Ensures the image doesn't get too large on small screens */
+    }
+    .section_container{
+      flex-direction: column;
+      padding: 5% 5%;
+    }
+    .section_title{
+        font-size: 2rem;
+    }
+  }
