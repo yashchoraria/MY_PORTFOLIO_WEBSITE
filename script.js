@@ -21,3 +21,24 @@ btn_color1.addEventListener('click', () => {
 btn_color2.addEventListener('click', () => {
     window.location.href = '.#contact'; 
 });
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    const darkModeToggle = document.getElementById('darkModeToggle');
+    const body = document.body;
+  
+    // Check for saved user preference, if any, on page load
+    if (localStorage.getItem('darkMode') === 'enabled') {
+      body.classList.add('dark-mode');
+    }
+  
+    darkModeToggle.addEventListener('click', () => {
+      body.classList.toggle('dark-mode');
+  
+      // Save or remove the preference
+      if (body.classList.contains('dark-mode')) {
+        localStorage.setItem('darkMode', 'enabled');
+      } else {
+        localStorage.removeItem('darkMode');
+      }
+    });
+  });

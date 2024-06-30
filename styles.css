@@ -421,3 +421,125 @@ html{
     text-align: center;
   }
   
+
+  #darkModeToggle {
+    cursor: pointer;
+    transition: background-color 0.3s ease;                                                                                                                                                     
+  }
+  
+  /* Dark mode specific styles */
+/* Add dark mode styles */
+
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+body.dark-mode .desktop_navbar {
+  background-color: #444;
+}
+
+body.dark-mode .main_name {
+  color: #fff;
+}
+
+body.dark-mode .nav_links a {
+  color: #fff;
+}
+
+body.dark-mode .nav_links a:hover {
+  color: #ccc;
+  text-decoration-color: #ccc;
+}
+
+body.dark-mode .mobile_navbar {
+  background-color: #444;
+}
+
+body.dark-mode .hamburger-icon span {
+  background-color: #fff;
+}
+
+body.dark-mode .nav_link a {
+  color: #fff;
+}
+
+body.dark-mode .nav_link a:hover {
+  color: #ccc;
+  text-decoration-color: #ccc;
+}
+
+body.dark-mode .section_container {
+  background-color: #444;
+}
+
+body.dark-mode .section_text {
+  color: #fff;
+}
+
+body.dark-mode .section_title {
+  color: #fff;
+}
+
+body.dark-mode .btn {
+  background-color: #444;
+  color: #fff;
+  border-color: #fff;
+}
+
+body.dark-mode .btn:hover {
+  background-color: #555;
+  color: #fff;
+}
+body.dark-mode .btn_color1:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark-mode .icon {
+  filter: invert(1);
+}
+body.dark-mode .details_container {
+  filter: invert(1);
+}
+
+body.dark-mode .intro_container, .college_name {
+  color: #000000;
+  background-color: #ffffff;
+  border-color: #fff;
+}
+body.dark-mode .intro_icon {
+  filter: invert(1);
+}
+
+body.dark-mode .article-container, .language {
+  filter: invert(1);
+}
+
+body.dark-mode .socials_container img {
+  filter: invert(1);
+}
+
+body.dark-mode .contact_info_upper_container {
+  background-color: #444;
+  border-color: #fff;
+}
+
+body.dark-mode .contact_icon {
+  filter: invert(1);
+}
+
+body.dark-mode .mail_color {
+  text-decoration: none;
+  color: #fff;
+}
+
+body.dark-mode .mail_color:hover {
+  text-decoration: underline;
+  text-decoration-color: #ccc;
+}
+
+.btn_color {
+  background-color: #fff;
+  color: #000;
+}
