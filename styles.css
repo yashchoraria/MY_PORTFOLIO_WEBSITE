@@ -23,8 +23,7 @@
   }
   
   /* Ensure elements within containers do not have excessive width, padding, or margin */
-  .element {
-    width: calc(100% - 2rem); /* Example: Adjust width considering padding or margin */
+  .element { /* Example: Adjust width considering padding or margin */
     margin: 0.5rem;
     padding: 0.5rem;
   }
@@ -174,7 +173,6 @@ html{
     align-items: center;
     padding: 5% 10%;
     background-color: #fff;
-    width: 100vw;
 }
 .profile_img,
 .about_img,

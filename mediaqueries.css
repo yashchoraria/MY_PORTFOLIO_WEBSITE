@@ -44,7 +44,7 @@
     }
   }
 
-  @media screen and (max-width: 850px) {
+  @media (max-width: 850px) {
     .about_img{
         width: 50vw; /* Adjusts width based on viewport width */
         max-width: 300px; /* Optional: Ensures the image doesn't get too large on small screens */
@@ -52,7 +52,7 @@
     }
     .about{
         flex-direction: column;
-      padding: 5% 5%;
+        padding: 5% 5%;
     }
     .about_container{
         flex-direction: column;
