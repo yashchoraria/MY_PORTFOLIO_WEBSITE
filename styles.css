@@ -8,19 +8,21 @@
 * {
     box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
   }
-  
-  body, html {
+
+  html, body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    overflow-x: hidden; /* Hides horizontal scrollbar */
+    overflow-x: hidden;
   }
   
-  /* Adjust your container elements to ensure they don't overflow */
   .container {
-    width: 100%; /* Example: Adjust according to your layout */
-    padding: 0 1rem; /* Adjust padding to ensure it doesn't cause overflow */
-    margin: 0 auto; /* Center the container without causing horizontal overflow */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
   }
+  
+  
   
   /* Ensure elements within containers do not have excessive width, padding, or margin */
   .element { /* Example: Adjust width considering padding or margin */

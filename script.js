@@ -25,25 +25,17 @@ btn_color2.addEventListener('click', () => {
 document.addEventListener('DOMContentLoaded', (event) => {
     const darkModeToggle = document.getElementById('darkModeToggle1');
     const body = document.body;
-    const footer = document.querySelector('.footer');
   
     // Check for saved user preference, if any, on page load
     if (localStorage.getItem('darkMode') === 'enabled') {
       body.classList.add('dark-mode');
-      footer.classList.add('dark-mode');
     }
   
     darkModeToggle.addEventListener('click', () => {
       body.classList.toggle('dark-mode');
-      footer.classList.toggle('dark-mode');
   
       // Save or remove the preference
       if (body.classList.contains('dark-mode')) {
-        localStorage.setItem('darkMode', 'enabled');
-      } else {
-        localStorage.removeItem('darkMode');
-      }
-      if (footer.classList.contains('dark-mode')) {
         localStorage.setItem('darkMode', 'enabled');
       } else {
         localStorage.removeItem('darkMode');
