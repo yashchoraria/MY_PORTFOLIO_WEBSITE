@@ -48,7 +48,6 @@ html{
     align-items: center;
     padding: 5% 10%;
     background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 100vw;
 }
 .main_name{
@@ -87,7 +86,6 @@ html{
     align-items: center;
     padding: 0 10%;
     background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 100vw;
 }
 .mobile_navbar{
@@ -177,9 +175,6 @@ html{
     padding: 5% 10%;
     background-color: #fff;
     width: 100vw;
-}
-.profile{
-    height: 80vh;
 }
 .profile_img,
 .about_img,
@@ -277,7 +272,6 @@ html{
 .about_img{
     height: 400px; 
     width: 400px;
-    /* Adjusts width based on viewport width */
     border-radius: 2rem;
 }
 .details_container {

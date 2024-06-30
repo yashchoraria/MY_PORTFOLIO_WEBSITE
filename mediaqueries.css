@@ -66,3 +66,27 @@
     }
 
   
+@media (max-width: 768px) {
+    /* ... (other media query styles) ... */
+  
+    #experience {
+      position: relative; /* Maintain relative positioning for the arrow */
+      padding: 0; /* Remove any default padding */
+      flex-direction: column; /* Stack elements vertically */
+    }
+  
+    .experience_details_container {
+      flex-direction: column; /* Stack the details vertically */
+    }
+  
+    .about_container {
+      /* Adjust styling for smaller screens */
+      flex-direction: column; /* Stack the elements vertically */
+      gap: 1rem; /* Reduce gap between elements */
+      margin-bottom: 2rem; /* Add some space before the arrow */
+    }
+  
+    .arrow {
+      margin-top: 2rem; /* Move the arrow below the experience content */
+    }
+  }
